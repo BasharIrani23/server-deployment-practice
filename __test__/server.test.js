@@ -10,8 +10,8 @@
 //   })
 // })
 
-const supertest = require("supertest");
-const { app } = require("../server");
+import supertest from "supertest";
+import { app } from "../server";
 const req = supertest(app);
 
 describe("Server test", () => {
